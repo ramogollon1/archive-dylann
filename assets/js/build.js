@@ -19658,7 +19658,7 @@
                             (0, u.toggleClass)(e.button, "is-muted", e.isActive), e.isActive ? (e.isActive = !1, e.fadeOut()) : (e.isActive = !0, e.fadeIn())
                         }
                     }), this.sounds.loop = new Howl({
-                        src: ["../sounds/sound.mp3"],
+                        src: ["./assets/sounds/sound.mp3"],
                         loop: !0,
                         volume: l
                     })
