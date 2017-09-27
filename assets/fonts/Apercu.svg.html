@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html class="no-js" lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>I Buongiorno - Vini del Salento</title>
+    <meta name="description" content="La passione di un esperto sommelier per un'esclusiva collezione di vini ispirati allo straordinario territorio salentino.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="apple-touch-icon" href="../../apple-icon.png.html">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../favicon.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <script src="../vendors/modernizr/modernizr.js"></script>
+    <link rel="stylesheet" href="../css/application.css">
+
+    <meta property="og:url" content="http://www.ibuongiorno.com"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="I Buongiorno - Vini del Salento"/>
+    <meta property="og:description" content="La passione di un esperto sommelier per un'esclusiva collezione di vini ispirati allo straordinario territorio salentino."/>
+    <meta property="og:image" content="http://www.ibuongiorno.com/assets/images/social.png"/>
+
+    <meta name="twitter:card" content="photo">
+    <meta name="twitter:url" content="https://www.ibuongiorno.com">
+    <meta name="twitter:title" content="I Buongiorno - Vini del Salento">
+    <meta name="twitter:description" content="La passione di un esperto sommelier per un'esclusiva collezione di vini ispirati allo straordinario territorio salentino."/>
+    <meta name="twitter:image" content="http://www.ibuongiorno.com/assets/images/social.png">
+</head>
+<body class="">
+    <!--<canvas id="noise"></canvas>-->
+    <div id="canvas"></div>
+
+    <div id="loader">
+        <div class="c-loader">
+            <div class="c-loader__wrapper">
+                <span class="loading-text">Loading</span>
+                <span data-bar></span>
+            </div>
+            <span data-progress class="loading-text">0</span>
+        </div>
+    </div>
+
+    <main id="barba-wrapper" class="page-view">
+        <header class="c-header">
+    <a class="c-header__logo" href="../../index.html" data-namespace="homepage">
+        <img src="../images/logo.svg" alt="Logo I Buongiorno">
+    </a>
+    <nav>
+        <ul class="c-nav">
+            <li class="c-nav__item">
+                <a class="o-link" href="../../index.html" data-namespace="homepage">Home</a>
+            </li>
+            <li class="c-nav__item">
+                <a class="o-link" href="../../about.html" data-namespace="about">About</a>
+            </li>
+            <li class="c-nav__item">
+            <a class="o-link" href="../../contacts.html" data-namespace="contacts">Contatti</a>
+            </li>
+            <li class="c-nav__item">
+                <a class="o-link o-link--language no-barba" href="../../en.html">en</a>
+            </li>
+            <button class="c-nav__item c-sound o-link" data-hide-cursor data-toggle-sound>
+                <span>mute</span>
+                <span class="play">play</span>
+            </button>
+        </ul>
+    </nav>
+</header>
+
+        
+<div class="barba-container" data-namespace="homepage">
+    <div id="scrollable">
+        <section id="slider">
+            <nav id="slider-navigator" class="c-navigator">
+                <ul class="c-navigator__container"></ul>
+            </nav>
+            <ul class="c-slider" >
+                <li class="c-slide" data-active data-title="Benvenuto">
+                    <div class="c-dot">
+                        <a data-hover href="../../about.html" data-namespace="about">
+                            <svg class="o-big-dot" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="50"/>
+                            </svg>
+                            <div class="c-dot__text" data-split>
+                                <h2>Vinicultura del Salento</h2>
+                                <strong class="o-subtitle">Carovigno</strong>
+                            </div>
+                        </a>
+                        <div class="drag-or-scroll" data-tip data-split>
+                            drag <span class="u-hidden--until-l-tablet">o scroll</span> per navigare
+                        </div>
+                    </div>
+                </li>
+                
+                
+                    <li class="c-slide" data-title="Primitivo">
+    <div class="c-dot">
+        <a data-hover href="../../products/primitivo.html" data-namespace="product">
+            <svg class="o-big-dot" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="50"/>
+            </svg>
+            <div class="c-slide__text" data-split>
+                <h2>Primitivo</h2>
+                <strong class="o-subtitle">Salento Rosso IGT</strong>
+            </div>
+        </a>
+    </div>
+</li>
+                
+                    <li class="c-slide" data-title="Negroamaro">
+    <div class="c-dot">
+        <a data-hover href="../../products/negroamaro.html" data-namespace="product">
+            <svg class="o-big-dot" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="50"/>
+            </svg>
+            <div class="c-slide__text" data-split>
+                <h2>Negroamaro</h2>
+                <strong class="o-subtitle">Salento Rosso IGT</strong>
+            </div>
+        </a>
+    </div>
+</li>
+                
+                    <li class="c-slide" data-title="Fiano">
+    <div class="c-dot">
+        <a data-hover href="../../products/fiano.html" data-namespace="product">
+            <svg class="o-big-dot" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="50"/>
+            </svg>
+            <div class="c-slide__text" data-split>
+                <h2>Fiano</h2>
+                <strong class="o-subtitle">Salento Bianco IGT</strong>
+            </div>
+        </a>
+    </div>
+</li>
+                
+                    <li class="c-slide" data-title="Rosalento">
+    <div class="c-dot">
+        <a data-hover href="../../products/rosalento.html" data-namespace="product">
+            <svg class="o-big-dot" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="50"/>
+            </svg>
+            <div class="c-slide__text" data-split>
+                <h2>Rosalento</h2>
+                <strong class="o-subtitle">Rosato Salento IGT</strong>
+            </div>
+        </a>
+    </div>
+</li>
+                
+                    <li class="c-slide" data-title="Nicolaus">
+    <div class="c-dot">
+        <a data-hover href="../../products/nicolaus.html" data-namespace="product">
+            <svg class="o-big-dot" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="50"/>
+            </svg>
+            <div class="c-slide__text" data-split>
+                <h2>Nicolaus</h2>
+                <strong class="o-subtitle">Puglia Rosso IGT</strong>
+            </div>
+        </a>
+    </div>
+</li>
+                
+                    <li class="c-slide" data-title="Celestiaco">
+    <div class="c-dot">
+        <a data-hover href="../../products/celestiaco.html" data-namespace="product">
+            <svg class="o-big-dot" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="50"/>
+            </svg>
+            <div class="c-slide__text" data-split>
+                <h2>Celestiaco</h2>
+                <strong class="o-subtitle">Salento Rosso IGT</strong>
+            </div>
+        </a>
+    </div>
+</li>
+                
+                    <li class="c-slide" data-title="Olio">
+    <div class="c-dot">
+        <a data-hover href="../../products/olio.html" data-namespace="product">
+            <svg class="o-big-dot" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="50"/>
+            </svg>
+            <div class="c-slide__text" data-split>
+                <h2>Olio</h2>
+                <strong class="o-subtitle">Extravergine d&#39;Oliva</strong>
+            </div>
+        </a>
+    </div>
+</li>
+                
+            </ul>
+        </section>
+    </div>
+</div>
+
+    </main>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-96031023-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <script src="../js/build.js"></script>
+</body>
+</html>
